@@ -1,0 +1,229 @@
+body {
+    margin: 0px;
+    background-color: #B04632;
+    font: 14px "Helvetica", sans-serif;
+    color: #FBEDEB;
+    overflow: auto;
+}
+
+/*-----------------------------NAVIGATION BAR-----------------------------*/
+
+#nav-bar {
+    background-color: #6E2F1A;
+    background: url(https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/trello-header-logos/af7af6ed478d3460709d715d9b3f74a4/trello-logo-white.svg);
+    background-size: 80px;
+	background-repeat: no-repeat;
+	background-position: center;
+    box-shadow: 0 0px 2px 0 #6E2F1A;
+	height: 18px;
+	padding: 10px;
+}
+
+.text-style {
+    font-family: Helvetica;
+    font-size: 13px;
+    font-weight: bold;
+    margin: -5px 0 0 6px;
+}
+
+.button-style{ /*buttons on the LEFT <------*/
+    background: rgba(255,255,255,.2);
+	border-radius: 3px;
+    border-style: none;
+    line-height: 25px;
+    margin: -6px 5px 0 -5px;
+    text-align: center;
+	cursor: pointer;
+   } 
+
+.button-style:hover{
+	background: rgba(255,255,255,.4);
+}
+
+.search-icon { /*search button icon style*/
+    font-size:16px;
+    color: white;
+    margin: 6px 4px 0 5px;
+    float: right;
+}
+
+.input-style { /*search button input style*/
+    background: transparent;
+    border: none;
+    color: #575757;
+}
+
+#right-bar {
+    height: 18px;
+    width: auto;
+    float: right;
+    margin-top: -25px;
+}
+
+.button-style-right { /*------>buttons on the RIGHT*/
+    background: rgba(255,255,255,.2);
+	border-radius: 3px;
+    border-style: none;
+    line-height: 25px;
+    text-align: center;
+	cursor: pointer;
+   } 
+
+.button-style-right:hover {
+	background: rgba(255,255,255,.4);
+}
+
+.fa-plus { /* + button */
+    text-align: center;
+}
+
+.user { /*U-user button*/    
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+.fa-info { /*I-info button*/
+    padding: 0 5px 0 5px;
+}
+
+.fa-bell-o { /*Bell button*/
+    padding: 0 2px 0 2px;
+}
+/*-------------------------END NAVIGATION BAR-----------------------------*/
+
+/*-------------------------HEADER BUTTONS-------------------------*/
+#content-header {
+    margin: 13px 0 5px 0;
+    height: 30px;
+    width: auto;
+}
+
+#main-board {
+    margin-left: 8px;
+    margin-top: 13px;
+    padding-right: 9px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.button-style-header { 
+    background: #B04632;
+	border-radius: 3px;
+    border-style: none;
+    line-height: 25px;
+    margin-left: 10px;
+	cursor: pointer;
+   } 
+
+.button-style-header:hover {
+	background: #963C2B;
+}
+
+.private-text {
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+
+/*RIGHT*/
+
+.button-style-header-right {
+    background: #B04632;
+	border-radius: 3px;
+    border-style: none;
+    line-height: 25px;
+    margin-top: -35px;
+    margin-right: 10px;
+    float: right;
+	cursor: pointer;
+}
+
+.button-style-header-right:hover {
+	background: #963C2B;
+}
+
+.menu-text {
+    text-decoration: underline;
+    padding-right: 5px;
+    padding-left: 5px;
+    float: right;
+    color: white;
+    font-size: 12px;
+}
+
+/*-------------------------END HEADER BUTTONS-----------------------------*/
+
+#add-a-list-btn {    /*add a list... dark red box*/
+	background-color: #963C2B;
+	padding: 12px;   
+	margin-left: 10px;
+	border-radius: 3px;
+	color: #F5D3CE;
+	display: block;
+	width: 246px;
+	cursor: pointer;
+}
+
+#add-a-list-btn:hover {
+	background-color: #7C3123;
+	width: 246px;
+}
+
+#save-list-btn { /*save button*/
+    font-family: helvetica;
+    font-size: 14px;
+    font-weight: bold;
+	margin-top: 4px;
+	background-color: #5EB54A;
+	border-style: none;
+	border-radius: 2px;
+	color: white;
+	padding: 7px 8px 8px 8px;
+	box-shadow: 0 1px 2px 0 black;
+    width: 72px;
+    height: 30px;
+}
+
+#save-btn:hover {
+	background-color: #539E3C;
+	width: 72px;
+    height: 30px;
+}
+
+#list-input-box { /*Add a list... input box*/
+	background-color: #D7D9DB;
+    padding: 8px 82px 8px 7px;
+    font-size: 14px;    
+    color: #575757;/*input text color*/
+	font-family: helvetica;    
+    border-radius: 3px;
+    border-style: none;
+    border: 1px solid #AAAAAA;
+    box-shadow: inset 0 0 10px rgba(0,0,0,.1);	
+	cursor: text;
+}
+
+#save-list-box { /*add-list... SAVE box*/
+	background-color: #E2E4E6;
+	margin-left: 10px;
+    padding: 4px;
+	border-radius: 2px;
+	width: 262px;
+    height: 70px;
+	display: none;
+}
+
+.addCardBtn { /*Add button*/
+    font-family: helvetica;
+    font-size: 14px;
+    font-weight: bold;
+	margin: 0 0 0 0;
+	background-color: #5EB54A;
+	border-style: none;
+	border-radius: 3px;
+	color: white;
+	padding: 7px 8px 8px 8px;
+	box-shadow: 0 1px 2px 0 black;
+    width: 60px;
+    height: 30px;
+}
