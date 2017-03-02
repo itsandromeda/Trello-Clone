@@ -11,5 +11,5 @@
   <li>Work on the navigation bar.</li>
   <li>Make UI responsive.</li>
 </ul>
-<h1>Trello 1.1</h1>
+<h1>Trello 1.0</h1>
 <img src="https://s-media-cache-ak0.pinimg.com/originals/c4/cf/f3/c4cff3ea9c4a5fc5a83fa7da093201e7.png"/>
