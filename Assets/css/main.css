@@ -4,6 +4,13 @@ body {
     font: 14px "Helvetica", sans-serif;
     color: #FBEDEB;
     overflow: auto;
+    height: 100%;
+}
+
+button,
+input,
+span {
+    outline: none;
 }
 
 /*-----------------------------NAVIGATION BAR-----------------------------*/
@@ -182,6 +189,7 @@ body {
 	box-shadow: 0 1px 2px 0 black;
     width: 72px;
     height: 30px;
+    cursor: pointer;
 }
 
 #save-btn:hover {
@@ -246,6 +254,7 @@ body {
 }
 
 .text {
+    color: black;
 	font-weight: bold;
     cursor: pointer;
 }
